@@ -1,0 +1,6 @@
+sam --version
+sam build
+sam deploy --guided [first time]
+sam deploy
+sam package --output-template-file packaged.yaml --s3-bucket <your-bucket-name>
+sam publish --template packaged.yaml --region us-west-2
